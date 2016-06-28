@@ -12,4 +12,7 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+-(NSUInteger)primeNumber:(NSUInteger)prime;
+-(NSArray *)generatePrimeNumbersArrayOfCount:(NSUInteger)count;
+
 @end
